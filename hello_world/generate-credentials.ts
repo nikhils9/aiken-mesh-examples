@@ -1,6 +1,6 @@
 import { AppWallet, resolvePrivateKey } from "npm:@meshsdk/core@1.5.4";
 
-// Generate a menomic phrase to create new wallet subsequently
+// Generate a menomic phrase to create a new wallet
 const mnemonic = AppWallet.brew();
 
 const privateKey = resolvePrivateKey(mnemonic);

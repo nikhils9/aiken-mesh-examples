@@ -1,0 +1,6 @@
+# Credentials
+*.addr
+*.sk
+
+# IDE
+*.code-workspace
