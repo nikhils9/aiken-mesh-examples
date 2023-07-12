@@ -40,10 +40,6 @@ import {
     .getAddressDetails(await lucid.wallet.address())
     .paymentCredential
     ?.hash;
-
-  // console.log(validator);
-  // console.log(publicKeyHash);
-  // console.log(lucid.utils.validatorToAddress(validator));
   
   const datum = Data.to(new Constr(0, [publicKeyHash]));
   
