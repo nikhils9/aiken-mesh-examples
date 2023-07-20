@@ -1,0 +1,14 @@
+name = "aiken-lang/gift-card"
+version = "0.0.0"
+license = "Apache-2.0"
+description = "Aiken contracts for project 'aiken-lang/gift-card'"
+
+[repository]
+user = "aiken-lang"
+project = "gift-card"
+platform = "github"
+
+[[dependencies]]
+name = "aiken-lang/stdlib"
+version = "1.3.0"
+source = "github"
